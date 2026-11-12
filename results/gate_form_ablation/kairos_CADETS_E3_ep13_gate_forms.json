@@ -1,0 +1,135 @@
+{
+ "model": "kairos",
+ "dataset": "CADETS_E3",
+ "epoch": 13,
+ "ice_semantics": "corrected margin (2026-10-11)",
+ "alpha": 1.0,
+ "full_M": {
+  "setting": "full_M",
+  "|M|": 72,
+  "support_size": 73,
+  "support_mal_count": 62,
+  "baseline": 0.0689,
+  "ca": 0.6821,
+  "adj_sigma": 0.684,
+  "adj_half": 0.8387,
+  "random_gate_mean": 0.0684,
+  "random_gate_trials": [
+   0.0663,
+   0.0689,
+   0.0689,
+   0.0688,
+   0.0689
+  ]
+ },
+ "M10": {
+  "trials": [
+   {
+    "setting": "random10_trial0",
+    "|M|": 10,
+    "support_size": 14,
+    "support_mal_count": 13,
+    "baseline": 0.0689,
+    "ca": 0.4233,
+    "adj_sigma": 0.4238,
+    "adj_half": 0.6683,
+    "random_gate_mean": 0.0689,
+    "random_gate_trials": [
+     0.0689,
+     0.0689,
+     0.0689,
+     0.0689,
+     0.0689
+    ]
+   },
+   {
+    "setting": "random10_trial1",
+    "|M|": 10,
+    "support_size": 13,
+    "support_mal_count": 12,
+    "baseline": 0.0689,
+    "ca": 0.3754,
+    "adj_sigma": 0.1251,
+    "adj_half": 0.4577,
+    "random_gate_mean": 0.0684,
+    "random_gate_trials": [
+     0.0666,
+     0.0689,
+     0.0689,
+     0.0689,
+     0.0689
+    ]
+   },
+   {
+    "setting": "random10_trial2",
+    "|M|": 10,
+    "support_size": 15,
+    "support_mal_count": 14,
+    "baseline": 0.0689,
+    "ca": 0.3836,
+    "adj_sigma": 0.3656,
+    "adj_half": 0.6684,
+    "random_gate_mean": 0.0689,
+    "random_gate_trials": [
+     0.0689,
+     0.0689,
+     0.0689,
+     0.0689,
+     0.0689
+    ]
+   },
+   {
+    "setting": "random10_trial3",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 14,
+    "baseline": 0.0689,
+    "ca": 0.373,
+    "adj_sigma": 0.3731,
+    "adj_half": 0.376,
+    "random_gate_mean": 0.0684,
+    "random_gate_trials": [
+     0.0689,
+     0.0666,
+     0.0689,
+     0.0689,
+     0.0689
+    ]
+   },
+   {
+    "setting": "random10_trial4",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 15,
+    "baseline": 0.0689,
+    "ca": 0.6695,
+    "adj_sigma": 0.4626,
+    "adj_half": 0.7824,
+    "random_gate_mean": 0.0684,
+    "random_gate_trials": [
+     0.0689,
+     0.0689,
+     0.0666,
+     0.0689,
+     0.0689
+    ]
+   }
+  ],
+  "aggregate": {
+   "baseline_mean": 0.0689,
+   "baseline_std": 0.0,
+   "ca_mean": 0.445,
+   "ca_std": 0.1137,
+   "adj_sigma_mean": 0.35,
+   "adj_sigma_std": 0.1179,
+   "adj_half_mean": 0.5906,
+   "adj_half_std": 0.1501,
+   "random_gate_mean_mean": 0.0686,
+   "random_gate_mean_std": 0.0002,
+   "support_size_mean": 14.8,
+   "support_size_std": 1.1662,
+   "support_mal_count_mean": 13.6,
+   "support_mal_count_std": 1.0198
+  }
+ }
+}

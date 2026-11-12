@@ -1,0 +1,83 @@
+{
+ "design": {
+  "audit_unit": "seed realization (not quantile)",
+  "margin_sesoi": 0.005,
+  "n_audit_cells_random": 240,
+  "n_audit_cells_degmatch": 60,
+  "tost_rule": "90% CI of mean delta inside [-0.005, +0.005] (Schuirmann 1987; two one-sided tests)"
+ },
+ "reviewer_anchor_checks": {
+  "ea29a690_q005_random_min_delta": -0.0754823111153143,
+  "ea29a690_q010_random_min_delta": -0.3216863428492394,
+  "ea29a690_q005_random_absmax": 0.0754823111153143,
+  "ea29a690_q050_random_absmax": 0.3821613971513927
+ },
+ "per_q_verdict": {
+  "q0.001": {
+   "n_cells": 60,
+   "n_out_of_band": 0,
+   "combos_with_individual_failures": [],
+   "global_max_abs_delta": 0.00014,
+   "tost_pass_combos": 3,
+   "tost_total_combos": 3
+  },
+  "q0.005": {
+   "n_cells": 60,
+   "n_out_of_band": 2,
+   "combos_with_individual_failures": [
+    "orthrus_CADETS_ep13(266a87dd)",
+    "velox_CADETS_ep13(ea29a690)"
+   ],
+   "global_max_abs_delta": 0.07548,
+   "tost_pass_combos": 2,
+   "tost_total_combos": 3
+  },
+  "q0.01": {
+   "n_cells": 60,
+   "n_out_of_band": 1,
+   "combos_with_individual_failures": [
+    "velox_CADETS_ep13(ea29a690)"
+   ],
+   "global_max_abs_delta": 0.32169,
+   "tost_pass_combos": 2,
+   "tost_total_combos": 3
+  },
+  "q0.05": {
+   "n_cells": 60,
+   "n_out_of_band": 14,
+   "combos_with_individual_failures": [
+    "orthrus_CADETS_ep13(266a87dd)",
+    "velox_CADETS_ep13(ea29a690)"
+   ],
+   "global_max_abs_delta": 0.38216,
+   "tost_pass_combos": 2,
+   "tost_total_combos": 3
+  },
+  "degmatch_q0.001": {
+   "n_cells": 15,
+   "n_out_of_band": 0,
+   "global_max_abs_delta": 0.00014
+  },
+  "degmatch_q0.005": {
+   "n_cells": 15,
+   "n_out_of_band": 0,
+   "global_max_abs_delta": 0.00014
+  },
+  "degmatch_q0.01": {
+   "n_cells": 15,
+   "n_out_of_band": 0,
+   "global_max_abs_delta": 0.00014
+  },
+  "degmatch_q0.05": {
+   "n_cells": 15,
+   "n_out_of_band": 0,
+   "global_max_abs_delta": 0.00014
+  }
+ },
+ "dual_caliber_writeup": {
+  "average_equivalence_sentence": "AVERAGE (TOST at margin 0.005): random-arm mean deltas stay inside the band for 3/3, 2/3, 2/3, 2/3 combos at q=0.001/0.005/0.01/0.05.",
+  "individual_equivalence_sentence": [
+   "INDIVIDUAL (per-seed): equivalence holds for every seed only at q=0.001; the seed envelope breaks out from q=0.005 upward (velox CADETS q=0.005 min delta -0.0755; q=0.01 -0.322; q=0.05 max |delta| 0.382 = 76x the band) -- the E18c quantile-audit sentence 'q<=0.005 all in band, max|delta|=0.077' is superseded by this dual-caliber statement."
+  ]
+ }
+}

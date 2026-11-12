@@ -1,0 +1,368 @@
+{
+  "top_baseline": [
+    {
+      "node_id": 228412,
+      "label": "node_228412",
+      "baseline_score": 13.9661,
+      "ca_score": 6.983,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 1217101,
+      "label": "node_1217101",
+      "baseline_score": 13.9661,
+      "ca_score": 6.983,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 141183,
+      "label": "{'netflow': '128.55.12.73:39242->53.158.101.118:80'}",
+      "baseline_score": 13.6582,
+      "ca_score": 13.5076,
+      "ci_sum": 4.4964,
+      "is_malicious": 1,
+      "attack": "Backdoor_12,Backdoor_13"
+    },
+    {
+      "node_id": 355357,
+      "label": "{'subject': 'None XIM'}",
+      "baseline_score": 13.6582,
+      "ca_score": 13.6306,
+      "ci_sum": 6.201,
+      "is_malicious": 1,
+      "attack": "Backdoor_12,Backdoor_13"
+    },
+    {
+      "node_id": 206148,
+      "label": "node_206148",
+      "baseline_score": 13.485,
+      "ca_score": 6.7425,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 1217102,
+      "label": "node_1217102",
+      "baseline_score": 13.485,
+      "ca_score": 6.7425,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 1218383,
+      "label": "node_1218383",
+      "baseline_score": 13.4593,
+      "ca_score": 6.7297,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 26318,
+      "label": "{'netflow': '128.55.12.73:19857->139.123.0.113:80'}",
+      "baseline_score": 13.0054,
+      "ca_score": 12.0015,
+      "ci_sum": 2.4812,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 228725,
+      "label": "{'subject': 'None vUgefal'}",
+      "baseline_score": 13.0054,
+      "ca_score": 12.9722,
+      "ci_sum": 5.9697,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 132794,
+      "label": "node_132794",
+      "baseline_score": 12.8767,
+      "ca_score": 6.4383,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 276239,
+      "label": "node_276239",
+      "baseline_score": 12.8767,
+      "ca_score": 6.4383,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 229314,
+      "label": "node_229314",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2049615,
+      "label": "node_2049615",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2049617,
+      "label": "node_2049617",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2049657,
+      "label": "node_2049657",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2229339,
+      "label": "node_2229339",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2229341,
+      "label": "node_2229341",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2229360,
+      "label": "node_2229360",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2229361,
+      "label": "node_2229361",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2229364,
+      "label": "node_2229364",
+      "baseline_score": 12.5396,
+      "ca_score": 6.2698,
+      "ci_sum": 0.0,
+      "is_malicious": 0,
+      "attack": "benign"
+    }
+  ],
+  "top_ca": [
+    {
+      "node_id": 355357,
+      "label": "{'subject': 'None XIM'}",
+      "baseline_score": 13.6582,
+      "ca_score": 13.6306,
+      "ci_sum": 6.201,
+      "is_malicious": 1,
+      "attack": "Backdoor_12,Backdoor_13"
+    },
+    {
+      "node_id": 141183,
+      "label": "{'netflow': '128.55.12.73:39242->53.158.101.118:80'}",
+      "baseline_score": 13.6582,
+      "ca_score": 13.5076,
+      "ci_sum": 4.4964,
+      "is_malicious": 1,
+      "attack": "Backdoor_12,Backdoor_13"
+    },
+    {
+      "node_id": 228725,
+      "label": "{'subject': 'None vUgefal'}",
+      "baseline_score": 13.0054,
+      "ca_score": 12.9722,
+      "ci_sum": 5.9697,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 26318,
+      "label": "{'netflow': '128.55.12.73:19857->139.123.0.113:80'}",
+      "baseline_score": 13.0054,
+      "ca_score": 12.0015,
+      "ci_sum": 2.4812,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 141285,
+      "label": "{'netflow': '128.55.12.73:34345->192.113.144.28:80'}",
+      "baseline_score": 10.5993,
+      "ca_score": 10.5831,
+      "ci_sum": 6.4803,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 355657,
+      "label": "{'subject': 'None test'}",
+      "baseline_score": 10.5993,
+      "ca_score": 10.5831,
+      "ci_sum": 6.4803,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 355470,
+      "label": "{'subject': 'None main'}",
+      "baseline_score": 10.1555,
+      "ca_score": 10.1544,
+      "ci_sum": 9.1056,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 2446982,
+      "label": "{'file': '/tmp/main'}",
+      "baseline_score": 10.1555,
+      "ca_score": 10.1544,
+      "ci_sum": 9.1056,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 337550,
+      "label": "{'subject': 'None nginx'}",
+      "baseline_score": 10.0361,
+      "ca_score": 10.0304,
+      "ci_sum": 7.4811,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 140960,
+      "label": "{'netflow': '128.55.12.73:12680->155.162.39.48:80'}",
+      "baseline_score": 10.0361,
+      "ca_score": 9.9565,
+      "ci_sum": 4.829,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 370876,
+      "label": "{'subject': 'None sshd'}",
+      "baseline_score": 8.7355,
+      "ca_score": 8.732,
+      "ci_sum": 7.8337,
+      "is_malicious": 1,
+      "attack": "Backdoor_13"
+    },
+    {
+      "node_id": 370899,
+      "label": "{'subject': 'None sshd'}",
+      "baseline_score": 8.7355,
+      "ca_score": 8.732,
+      "ci_sum": 7.8337,
+      "is_malicious": 1,
+      "attack": "Backdoor_13"
+    },
+    {
+      "node_id": 2609438,
+      "label": "node_2609438",
+      "baseline_score": 8.7355,
+      "ca_score": 8.732,
+      "ci_sum": 7.8337,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 2609585,
+      "label": "node_2609585",
+      "baseline_score": 8.7355,
+      "ca_score": 8.732,
+      "ci_sum": 7.8337,
+      "is_malicious": 0,
+      "attack": "benign"
+    },
+    {
+      "node_id": 211776,
+      "label": "{'subject': 'None nginx'}",
+      "baseline_score": 8.832,
+      "ca_score": 8.4756,
+      "ci_sum": 3.1689,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 26281,
+      "label": "{'netflow': '128.55.12.73:38265->200.36.109.214:80'}",
+      "baseline_score": 8.832,
+      "ca_score": 8.2783,
+      "ci_sum": 2.7048,
+      "is_malicious": 1,
+      "attack": "Backdoor_06"
+    },
+    {
+      "node_id": 2447478,
+      "label": "{'file': '/tmp/test'}",
+      "baseline_score": 8.1339,
+      "ca_score": 8.1337,
+      "ci_sum": 10.9205,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 355535,
+      "label": "{'subject': 'None test'}",
+      "baseline_score": 8.1339,
+      "ca_score": 7.9258,
+      "ci_sum": 3.6402,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 355641,
+      "label": "{'subject': 'None test'}",
+      "baseline_score": 8.1339,
+      "ca_score": 7.9258,
+      "ci_sum": 3.6402,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    },
+    {
+      "node_id": 355572,
+      "label": "{'subject': 'None test'}",
+      "baseline_score": 8.1339,
+      "ca_score": 7.9258,
+      "ci_sum": 3.6402,
+      "is_malicious": 1,
+      "attack": "Backdoor_12"
+    }
+  ],
+  "n_baseline_malicious_in_top": 4,
+  "n_ca_malicious_in_top": 18
+}

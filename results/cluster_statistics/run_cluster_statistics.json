@@ -1,0 +1,165 @@
+{
+ "design": {
+  "n_cells": 42,
+  "n_clusters_G": 6,
+  "m_epochs_per_run": 7,
+  "cluster_unit": "model x dataset run (training trajectory)"
+ },
+ "audit_anchors": {
+  "W_42_matches": true,
+  "p_42_one_sided_matches": true,
+  "p_42_two_sided_approx_equals_2x_one_sided": true,
+  "per_combo_one_sided_matches_archived": true,
+  "archived_p_is_one_sided_greater": true
+ },
+ "naive_42_wilcoxon": {
+  "W": 861.0,
+  "p_one_sided_approx_archived": 1.2124952670501759e-08,
+  "p_two_sided_approx": 2.4249905341003518e-08,
+  "p_two_sided_exact": 9.094947017729282e-13,
+  "caveat": "Manual exact values: one zero-difference cell (orthrus_CADETS ep7, 0.9999->0.9999 ceiling tie) is dropped by zero_method='wilcox', leaving n=41 all-positive deltas with full rank sum W+=861=41*42/2; one-sided exact = 2^-41 = 4.547e-13, two-sided = 9.095e-13. scipy method='exact' silently falls back to the normal approximation in the presence of zeros (hence the archived 2.425e-8 in this field was approx, not exact). CAVEAT: this 42-cell layer still assumes epoch-level independence, which the nested 6-run design does not provide; use cluster_level for inference.",
+  "p_one_sided_exact": 4.547473508864641e-13
+ },
+ "nesting": {
+  "icc_delta": 0.41229853219614576,
+  "ms_between": 0.32870870499999993,
+  "ms_within": 0.05561145666666667,
+  "kish_deff": 3.473791193176875,
+  "n_eff": 12.090536726126558,
+  "lag1_autocorr_per_run": {
+   "kairos_CADETS_E3": -0.02635801899555074,
+   "kairos_THEIA_E3": 0.28793369881613856,
+   "orthrus_CADETS_E3": -0.10458710514853833,
+   "orthrus_THEIA_E3": -0.6782725518613968,
+   "velox_CADETS_E3": -0.40680569453064025,
+   "velox_THEIA_E3": 0.08394376027956181
+  },
+  "kairos_THEIA_ca_gt_all_09999": true
+ },
+ "cluster_level": {
+  "combo_means": {
+   "kairos_CADETS_E3": 0.5846714285714285,
+   "kairos_THEIA_E3": 0.7769857142857143,
+   "orthrus_CADETS_E3": 0.24004285714285717,
+   "orthrus_THEIA_E3": 0.5044285714285714,
+   "velox_CADETS_E3": 0.5270142857142857,
+   "velox_THEIA_E3": 0.20515714285714287
+  },
+  "n_positive_of_6": 6,
+  "sign_test_p": 0.03125,
+  "wilcoxon_signed_rank_p": 0.03125,
+  "wild_cluster_bootstrap_64": {
+   "p": 0.03125,
+   "n_patterns_ge": 2,
+   "n_patterns": 64,
+   "method": "exhaustive Rademacher sign enumeration on the 6 cluster means (CGM 2008 / Canay et al. 2021, G=6 special case; no asymptotics, no MC error)"
+  }
+ },
+ "stratified_wilcoxon": [
+  {
+   "combo": "kairos_CADETS_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.0078125,
+   "p_two_sided_exact": 0.015625,
+   "p_archived_json": 0.0078125,
+   "W_archived": 28.0,
+   "mean_delta": 0.5846714285714285,
+   "n_epochs_improved": 7,
+   "p_bonferroni_one_sided_x6": 0.046875,
+   "p_bonferroni_two_sided_x6": 0.09375,
+   "p_holm_one_sided": 0.046875
+  },
+  {
+   "combo": "kairos_THEIA_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.0078125,
+   "p_two_sided_exact": 0.015625,
+   "p_archived_json": 0.0078125,
+   "W_archived": 28.0,
+   "mean_delta": 0.7769857142857142,
+   "n_epochs_improved": 7,
+   "p_bonferroni_one_sided_x6": 0.046875,
+   "p_bonferroni_two_sided_x6": 0.09375,
+   "p_holm_one_sided": 0.046875
+  },
+  {
+   "combo": "orthrus_CADETS_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.013853924679039932,
+   "p_two_sided_exact": 0.03125,
+   "p_archived_json": 0.013853924679039932,
+   "W_archived": 21.0,
+   "mean_delta": 0.24004285714285714,
+   "n_epochs_improved": 6,
+   "p_bonferroni_one_sided_x6": 0.08312354807423959,
+   "p_bonferroni_two_sided_x6": 0.1875,
+   "p_holm_one_sided": 0.046875,
+   "p_two_sided_exact_note": "6 positive deltas + 1 zero (ep7 ceiling tie 0.9999->0.9999); dropped zero leaves n=6 all-positive, two-sided exact = 2*2^-6 = 0.03125. scipy auto fell back to approx (0.0277) due to the zero."
+  },
+  {
+   "combo": "orthrus_THEIA_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.0078125,
+   "p_two_sided_exact": 0.015625,
+   "p_archived_json": 0.0078125,
+   "W_archived": 28.0,
+   "mean_delta": 0.5044285714285713,
+   "n_epochs_improved": 7,
+   "p_bonferroni_one_sided_x6": 0.046875,
+   "p_bonferroni_two_sided_x6": 0.09375,
+   "p_holm_one_sided": 0.046875
+  },
+  {
+   "combo": "velox_CADETS_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.0078125,
+   "p_two_sided_exact": 0.015625,
+   "p_archived_json": 0.0078125,
+   "W_archived": 28.0,
+   "mean_delta": 0.5270142857142858,
+   "n_epochs_improved": 7,
+   "p_bonferroni_one_sided_x6": 0.046875,
+   "p_bonferroni_two_sided_x6": 0.09375,
+   "p_holm_one_sided": 0.046875
+  },
+  {
+   "combo": "velox_THEIA_E3",
+   "n": 7,
+   "p_one_sided_archived_call": 0.0078125,
+   "p_two_sided_exact": 0.015625,
+   "p_archived_json": 0.0078125,
+   "W_archived": 28.0,
+   "mean_delta": 0.20515714285714287,
+   "n_epochs_improved": 7,
+   "p_bonferroni_one_sided_x6": 0.046875,
+   "p_bonferroni_two_sided_x6": 0.09375,
+   "p_holm_one_sided": 0.046875
+  }
+ ],
+ "inflation": {
+  "nominal_p_42_one_sided_approx_archived": 1.2124952670501759e-08,
+  "nominal_p_42_two_sided_approx": 2.4249905341003518e-08,
+  "nominal_p_42_two_sided_exact": 9.094947017729282e-13,
+  "cluster_exact_p_sign": 0.03125,
+  "cluster_exact_p_wcb64": 0.03125,
+  "orders_of_magnitude_gap_vs_archived": -6.411169969661878,
+  "orders_of_magnitude_gap_vs_exact": -10.53605,
+  "n_eff_kish": 12.090536726126558,
+  "inflation_factor_n": 3.473791193176875,
+  "_correction_2026_10_20": {
+   "what": "nominal_p_42_two_sided_exact and orders_of_magnitude_gap_vs_exact corrected (R2A-M3/R2B-M2\u2462)",
+   "why": "scipy wilcoxon method='exact' silently falls back to the normal approximation when zero-difference cells are present; the archived 'exact' field 2.4249905341003518e-08 was the approximation, bit-identical to two_sided_approx. The manual exact two-sided value (n=41 all-positive, W+=861) is 9.094947017729282e-13, consistent with the already-corrected naive_42_wilcoxon segment.",
+   "old_values": {
+    "nominal_p_42_two_sided_exact": 2.4249905341003518e-08,
+    "orders_of_magnitude_gap_vs_exact": -6.110139973997897
+   }
+  }
+ },
+ "writeup_recommendation": {
+  "abstract_sentence": "CA improves 41/42 checkpoints (97.6%); treating the 6 training runs as the independent unit (Kish DEFF=3.5, n_eff~12.1), 6/6 runs improve with cluster-exact sign p=0.0312 (wild cluster bootstrap, 64 exhaustive sign patterns, identical p); the 42-cell Wilcoxon p=1.2e-8 assumes epoch-level independence that the nested design does not provide and is reported only as descriptive.",
+  "notes": [
+   "per-combo Bonferroni x6 leaves orthrus_CADETS above 0.05 (exact p x 6); Holm gives the same verdict",
+   "d=1.586 and r=1.00 remain valid as effect sizes; only the p-value's unit changes"
+  ]
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "model": "orthrus",
+ "dataset": "THEIA_E3",
+ "epoch": 19,
+ "ice_semantics": "corrected margin (2026-10-11)",
+ "full_M": 118,
+ "p0": {
+  "ca": 0.732,
+  "adj_half": 0.7293,
+  "adj_sigma": 0.2164
+ },
+ "alpha_scan": {
+  "0.5": 0.6812,
+  "1.0": 0.732,
+  "2.0": 0.7304,
+  "5.0": 0.7302
+ },
+ "noise": {
+  "p10": {
+   "ca_mean": 0.732,
+   "adj_half_mean": 0.7293,
+   "adj_sigma_mean": 0.2164,
+   "trials": [
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 12
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 12
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 12
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 12
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 12
+    }
+   ]
+  },
+  "p30": {
+   "ca_mean": 0.732,
+   "adj_half_mean": 0.7293,
+   "adj_sigma_mean": 0.2164,
+   "trials": [
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 35
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 35
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 35
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 35
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 35
+    }
+   ]
+  },
+  "p50": {
+   "ca_mean": 0.732,
+   "adj_half_mean": 0.7293,
+   "adj_sigma_mean": 0.2164,
+   "trials": [
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 59
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 59
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 59
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 59
+    },
+    {
+     "ca": 0.732,
+     "adj_half": 0.7293,
+     "adj_sigma": 0.2164,
+     "n_fake": 59
+    }
+   ]
+  }
+ }
+}

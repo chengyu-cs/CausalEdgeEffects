@@ -1,0 +1,754 @@
+{
+ "combos": [
+  {
+   "model": "kairos",
+   "dataset": "CADETS_E3",
+   "epoch": 13,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 72,
+   "p0": {
+    "ca": 0.6821,
+    "adj_half": 0.8387,
+    "support_size": 73
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.6821,
+     "adj_half_mean": 0.8387,
+     "support_size_mean": 73.0,
+     "trials": [
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 7
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.6821,
+     "adj_half_mean": 0.8387,
+     "support_size_mean": 73.0,
+     "trials": [
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 22
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.6821,
+     "adj_half_mean": 0.8387,
+     "support_size_mean": 73.0,
+     "trials": [
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.6821,
+       "adj_half": 0.8387,
+       "support_size": 73,
+       "n_fake": 36
+      }
+     ]
+    }
+   }
+  },
+  {
+   "model": "kairos",
+   "dataset": "THEIA_E3",
+   "epoch": 19,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 118,
+   "p0": {
+    "ca": 0.9998,
+    "adj_half": 0.8749,
+    "support_size": 129
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.8749,
+     "support_size_mean": 129.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 12
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.8749,
+     "support_size_mean": 129.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 35
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.8749,
+     "support_size_mean": 129.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.8749,
+       "support_size": 129,
+       "n_fake": 59
+      }
+     ]
+    }
+   }
+  },
+  {
+   "model": "velox",
+   "dataset": "CADETS_E3",
+   "epoch": 13,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 72,
+   "p0": {
+    "ca": 0.9998,
+    "adj_half": 0.9998,
+    "support_size": 68
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.9998,
+     "support_size_mean": 68.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 7
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.9998,
+     "support_size_mean": 68.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 22
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.9998,
+     "adj_half_mean": 0.9998,
+     "support_size_mean": 68.0,
+     "trials": [
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9998,
+       "adj_half": 0.9998,
+       "support_size": 68,
+       "n_fake": 36
+      }
+     ]
+    }
+   }
+  },
+  {
+   "model": "velox",
+   "dataset": "THEIA_E3",
+   "epoch": 19,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 118,
+   "p0": {
+    "ca": 0.9053,
+    "adj_half": 0.9337,
+    "support_size": 126
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.9053,
+     "adj_half_mean": 0.9337,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 12
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.9053,
+     "adj_half_mean": 0.9337,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 35
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.9053,
+     "adj_half_mean": 0.9337,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.9053,
+       "adj_half": 0.9337,
+       "support_size": 126,
+       "n_fake": 59
+      }
+     ]
+    }
+   }
+  },
+  {
+   "model": "orthrus",
+   "dataset": "CADETS_E3",
+   "epoch": 13,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 72,
+   "p0": {
+    "ca": 0.9631,
+    "adj_half": 0.9664,
+    "support_size": 76
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.9631,
+     "adj_half_mean": 0.9664,
+     "support_size_mean": 76.0,
+     "trials": [
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 7
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 7
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.9631,
+     "adj_half_mean": 0.9664,
+     "support_size_mean": 76.0,
+     "trials": [
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 22
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 22
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.9631,
+     "adj_half_mean": 0.9664,
+     "support_size_mean": 76.0,
+     "trials": [
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 36
+      },
+      {
+       "ca": 0.9631,
+       "adj_half": 0.9664,
+       "support_size": 76,
+       "n_fake": 36
+      }
+     ]
+    }
+   }
+  },
+  {
+   "model": "orthrus",
+   "dataset": "THEIA_E3",
+   "epoch": 19,
+   "noise_form": "FP-as-endpoint (top-100 baseline FP nodes)",
+   "full_M": 118,
+   "p0": {
+    "ca": 0.732,
+    "adj_half": 0.7293,
+    "support_size": 126
+   },
+   "noise": {
+    "p10": {
+     "ca_mean": 0.732,
+     "adj_half_mean": 0.7293,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 12
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 12
+      }
+     ]
+    },
+    "p30": {
+     "ca_mean": 0.732,
+     "adj_half_mean": 0.7293,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 35
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 35
+      }
+     ]
+    },
+    "p50": {
+     "ca_mean": 0.732,
+     "adj_half_mean": 0.7293,
+     "support_size_mean": 126.0,
+     "trials": [
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 59
+      },
+      {
+       "ca": 0.732,
+       "adj_half": 0.7293,
+       "support_size": 126,
+       "n_fake": 59
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "model": "orthrus",
+ "dataset": "THEIA_E3",
+ "epoch": 19,
+ "ice_semantics": "corrected margin (2026-10-11)",
+ "alpha": 1.0,
+ "full_M": {
+  "setting": "full_M",
+  "|M|": 118,
+  "support_size": 126,
+  "support_mal_count": 113,
+  "baseline": 0.0195,
+  "ca": 0.732,
+  "adj_sigma": 0.2164,
+  "adj_half": 0.7293,
+  "random_gate_mean": 0.0193,
+  "random_gate_trials": [
+   0.0195,
+   0.0194,
+   0.0192,
+   0.0192,
+   0.0194
+  ]
+ },
+ "M10": {
+  "trials": [
+   {
+    "setting": "random10_trial0",
+    "|M|": 10,
+    "support_size": 20,
+    "support_mal_count": 17,
+    "baseline": 0.0195,
+    "ca": 0.057,
+    "adj_sigma": 0.1133,
+    "adj_half": 0.6179,
+    "random_gate_mean": 0.0195,
+    "random_gate_trials": [
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195
+    ]
+   },
+   {
+    "setting": "random10_trial1",
+    "|M|": 10,
+    "support_size": 18,
+    "support_mal_count": 16,
+    "baseline": 0.0195,
+    "ca": 0.2272,
+    "adj_sigma": 0.1137,
+    "adj_half": 0.6212,
+    "random_gate_mean": 0.0195,
+    "random_gate_trials": [
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195
+    ]
+   },
+   {
+    "setting": "random10_trial2",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 15,
+    "baseline": 0.0195,
+    "ca": 0.24,
+    "adj_sigma": 0.1165,
+    "adj_half": 0.6128,
+    "random_gate_mean": 0.0195,
+    "random_gate_trials": [
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195
+    ]
+   },
+   {
+    "setting": "random10_trial3",
+    "|M|": 10,
+    "support_size": 17,
+    "support_mal_count": 16,
+    "baseline": 0.0195,
+    "ca": 0.5024,
+    "adj_sigma": 0.1454,
+    "adj_half": 0.5025,
+    "random_gate_mean": 0.0195,
+    "random_gate_trials": [
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195
+    ]
+   },
+   {
+    "setting": "random10_trial4",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 15,
+    "baseline": 0.0195,
+    "ca": 0.2218,
+    "adj_sigma": 0.1157,
+    "adj_half": 0.6212,
+    "random_gate_mean": 0.0195,
+    "random_gate_trials": [
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195,
+     0.0195
+    ]
+   }
+  ],
+  "aggregate": {
+   "baseline_mean": 0.0195,
+   "baseline_std": 0.0,
+   "ca_mean": 0.2497,
+   "ca_std": 0.1431,
+   "adj_sigma_mean": 0.1209,
+   "adj_sigma_std": 0.0123,
+   "adj_half_mean": 0.5951,
+   "adj_half_std": 0.0464,
+   "random_gate_mean_mean": 0.0195,
+   "random_gate_mean_std": 0.0,
+   "support_size_mean": 17.4,
+   "support_size_std": 1.4967,
+   "support_mal_count_mean": 15.8,
+   "support_mal_count_std": 0.7483
+  }
+ }
+}

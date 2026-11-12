@@ -1,0 +1,175 @@
+{
+ "design": {
+  "anchor": "k=10",
+  "strategies": [
+   "random",
+   "topdegree",
+   "earlyactive"
+  ],
+  "size_axis": "random mean delta over k in {1,3,5,10}"
+ },
+ "per_combo_table": [
+  {
+   "combo": "kairos_CADETS_ep13",
+   "random_delta_k10": 0.2535,
+   "topdegree_delta_k10": 0.3377,
+   "earlyactive_delta_k10": 0.3382,
+   "strategy_spread_k10": 0.0847,
+   "size_spread_random_k1to10": 0.2488,
+   "spread_ratio_strat_over_size": 0.341,
+   "identity_dominates_size": false,
+   "best_strategy": "earlyactive",
+   "worst_strategy": "random",
+   "random_k10_trial_min": 0.0111,
+   "random_k10_trial_max": 0.6037,
+   "random_k10_trial_std": 0.3176,
+   "full_delta": 0.6132,
+   "identity_cost": -0.08444999999999997,
+   "family": "CADETS"
+  },
+  {
+   "combo": "kairos_THEIA_ep19",
+   "random_delta_k10": 0.9995,
+   "topdegree_delta_k10": 0.9995,
+   "earlyactive_delta_k10": 0.5022,
+   "strategy_spread_k10": 0.4973,
+   "size_spread_random_k1to10": 0.5996,
+   "spread_ratio_strat_over_size": 0.829,
+   "identity_dominates_size": false,
+   "best_strategy": "random",
+   "worst_strategy": "earlyactive",
+   "random_k10_trial_min": 0.9995,
+   "random_k10_trial_max": 0.9995,
+   "random_k10_trial_std": 0.0,
+   "full_delta": 0.9994,
+   "identity_cost": 0.24865000000000004,
+   "family": "THEIA"
+  },
+  {
+   "combo": "orthrus_CADETS_ep13",
+   "random_delta_k10": 0.2256,
+   "topdegree_delta_k10": 0.3273,
+   "earlyactive_delta_k10": 0.1848,
+   "strategy_spread_k10": 0.1425,
+   "size_spread_random_k1to10": 0.2305,
+   "spread_ratio_strat_over_size": 0.618,
+   "identity_dominates_size": false,
+   "best_strategy": "topdegree",
+   "worst_strategy": "earlyactive",
+   "random_k10_trial_min": 0.0005,
+   "random_k10_trial_max": 0.2877,
+   "random_k10_trial_std": 0.1259,
+   "full_delta": 0.5024,
+   "identity_cost": -0.030450000000000005,
+   "family": "CADETS"
+  },
+  {
+   "combo": "orthrus_THEIA_ep19",
+   "random_delta_k10": 0.3196,
+   "topdegree_delta_k10": 0.0136,
+   "earlyactive_delta_k10": 0.0007,
+   "strategy_spread_k10": 0.3189,
+   "size_spread_random_k1to10": 0.3036,
+   "spread_ratio_strat_over_size": 1.05,
+   "identity_dominates_size": true,
+   "best_strategy": "random",
+   "worst_strategy": "earlyactive",
+   "random_k10_trial_min": 0.2058,
+   "random_k10_trial_max": 0.4878,
+   "random_k10_trial_std": 0.1513,
+   "full_delta": 0.7125,
+   "identity_cost": 0.31245,
+   "family": "THEIA"
+  },
+  {
+   "combo": "velox_CADETS_ep13",
+   "random_delta_k10": 0.3444,
+   "topdegree_delta_k10": 0.5091,
+   "earlyactive_delta_k10": 0.5091,
+   "strategy_spread_k10": 0.1647,
+   "size_spread_random_k1to10": 0.3444,
+   "spread_ratio_strat_over_size": 0.478,
+   "identity_dominates_size": false,
+   "best_strategy": "topdegree",
+   "worst_strategy": "random",
+   "random_k10_trial_min": 0.0,
+   "random_k10_trial_max": 0.5091,
+   "random_k10_trial_std": 0.2002,
+   "full_delta": 0.5091,
+   "identity_cost": -0.1647,
+   "family": "CADETS"
+  },
+  {
+   "combo": "velox_THEIA_ep19",
+   "random_delta_k10": 0.1032,
+   "topdegree_delta_k10": 0.0,
+   "earlyactive_delta_k10": 0.0,
+   "strategy_spread_k10": 0.1032,
+   "size_spread_random_k1to10": 0.0789,
+   "spread_ratio_strat_over_size": 1.308,
+   "identity_dominates_size": true,
+   "best_strategy": "random",
+   "worst_strategy": "topdegree",
+   "random_k10_trial_min": 0.0077,
+   "random_k10_trial_max": 0.1553,
+   "random_k10_trial_std": 0.0586,
+   "full_delta": 0.1652,
+   "identity_cost": 0.1032,
+   "family": "THEIA"
+  }
+ ],
+ "conditional": {
+  "random_effective_all_6_combos_k10": true,
+  "random_min_k10_across_combos": 0.1032,
+  "guided_fail_cells": [
+   {
+    "combo": "orthrus_THEIA_ep19",
+    "strategy": "topdegree",
+    "delta": 0.0136,
+    "vs_random_same_combo": -0.306
+   },
+   {
+    "combo": "orthrus_THEIA_ep19",
+    "strategy": "earlyactive",
+    "delta": 0.0007,
+    "vs_random_same_combo": -0.3189
+   },
+   {
+    "combo": "velox_THEIA_ep19",
+    "strategy": "topdegree",
+    "delta": 0.0,
+    "vs_random_same_combo": -0.1032
+   },
+   {
+    "combo": "velox_THEIA_ep19",
+    "strategy": "earlyactive",
+    "delta": 0.0,
+    "vs_random_same_combo": -0.1032
+   }
+  ],
+  "random_ineffective_any_combo": false
+ },
+ "interaction": {
+  "estimand": "identity cost = random_delta(k=10) - mean(topdegree, earlyactive)_delta(k=10), per combo",
+  "identity_cost_per_combo": {
+   "kairos_CADETS_ep13": -0.0844,
+   "kairos_THEIA_ep19": 0.2487,
+   "orthrus_CADETS_ep13": -0.0305,
+   "orthrus_THEIA_ep19": 0.3125,
+   "velox_CADETS_ep13": -0.1647,
+   "velox_THEIA_ep19": 0.1032
+  },
+  "CADETS_mean": -0.0932,
+  "THEIA_mean": 0.2214,
+  "interaction_point_estimate": -0.3146,
+  "permutation_exact_p_20splits": 0.1,
+  "n_per_family": 3,
+  "power_caveat": "Brookes 2004 / ICH E9 s5.7: interaction tests need ~4x the sample of the main effect; with 3 combos per family this test is exploratory regardless of p"
+ },
+ "headline": {
+  "old_headline": "|M| size dominates, source identity secondary (size_spread 0.294 ~ 2x strategy_spread 0.157, cross-granularity)",
+  "revised_headline": "At the same k=10 granularity, source identity and |M| size are comparable in aggregate (strategy spread 0.219 vs size spread 0.301 averaged over combos), but identity effects are family-modulated: random selection is the only source effective in all 6 combos (min gain 0.103), while timeline/EDR-style guided sources fail on THEIA (4 of 12 guided cells with gain <0.05, all on THEIA, worst velox_THEIA_ep19 topdegree 0.0) and dominate on CADETS.",
+  "identity_dominates_size_n_combos": "2/6",
+  "aggregate_same_granularity_ratio": 0.726
+ }
+}

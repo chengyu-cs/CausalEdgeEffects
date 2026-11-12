@@ -1,0 +1,135 @@
+{
+ "model": "kairos",
+ "dataset": "THEIA_E3",
+ "epoch": 19,
+ "ice_semantics": "corrected margin (2026-10-11)",
+ "alpha": 1.0,
+ "full_M": {
+  "setting": "full_M",
+  "|M|": 118,
+  "support_size": 129,
+  "support_mal_count": 118,
+  "baseline": 0.0004,
+  "ca": 0.9998,
+  "adj_sigma": 0.8292,
+  "adj_half": 0.8749,
+  "random_gate_mean": 0.0004,
+  "random_gate_trials": [
+   0.0004,
+   0.0004,
+   0.0004,
+   0.0004,
+   0.0004
+  ]
+ },
+ "M10": {
+  "trials": [
+   {
+    "setting": "random10_trial0",
+    "|M|": 10,
+    "support_size": 19,
+    "support_mal_count": 17,
+    "baseline": 0.0004,
+    "ca": 0.9999,
+    "adj_sigma": 0.9999,
+    "adj_half": 0.9999,
+    "random_gate_mean": 0.0004,
+    "random_gate_trials": [
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004
+    ]
+   },
+   {
+    "setting": "random10_trial1",
+    "|M|": 10,
+    "support_size": 17,
+    "support_mal_count": 16,
+    "baseline": 0.0004,
+    "ca": 0.9999,
+    "adj_sigma": 0.9999,
+    "adj_half": 0.9999,
+    "random_gate_mean": 0.0004,
+    "random_gate_trials": [
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004
+    ]
+   },
+   {
+    "setting": "random10_trial2",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 15,
+    "baseline": 0.0004,
+    "ca": 0.9999,
+    "adj_sigma": 0.9999,
+    "adj_half": 0.9999,
+    "random_gate_mean": 0.0004,
+    "random_gate_trials": [
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004
+    ]
+   },
+   {
+    "setting": "random10_trial3",
+    "|M|": 10,
+    "support_size": 18,
+    "support_mal_count": 17,
+    "baseline": 0.0004,
+    "ca": 0.9999,
+    "adj_sigma": 0.8876,
+    "adj_half": 0.923,
+    "random_gate_mean": 0.0004,
+    "random_gate_trials": [
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004
+    ]
+   },
+   {
+    "setting": "random10_trial4",
+    "|M|": 10,
+    "support_size": 16,
+    "support_mal_count": 16,
+    "baseline": 0.0004,
+    "ca": 0.9999,
+    "adj_sigma": 0.9999,
+    "adj_half": 0.9999,
+    "random_gate_mean": 0.0004,
+    "random_gate_trials": [
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004,
+     0.0004
+    ]
+   }
+  ],
+  "aggregate": {
+   "baseline_mean": 0.0004,
+   "baseline_std": 0.0,
+   "ca_mean": 0.9999,
+   "ca_std": 0.0,
+   "adj_sigma_mean": 0.9774,
+   "adj_sigma_std": 0.0449,
+   "adj_half_mean": 0.9845,
+   "adj_half_std": 0.0308,
+   "random_gate_mean_mean": 0.0004,
+   "random_gate_mean_std": 0.0,
+   "support_size_mean": 17.2,
+   "support_size_std": 1.1662,
+   "support_mal_count_mean": 16.2,
+   "support_mal_count_std": 0.7483
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "model": "kairos",
+ "dataset": "CADETS_E3",
+ "epoch": 13,
+ "ice_semantics": "corrected margin (2026-10-11)",
+ "full_M": 72,
+ "p0": {
+  "ca": 0.6821,
+  "adj_half": 0.8387,
+  "adj_sigma": 0.684
+ },
+ "alpha_scan": {
+  "0.5": 0.6703,
+  "1.0": 0.6821,
+  "2.0": 0.7599,
+  "5.0": 0.8427
+ },
+ "noise": {
+  "p10": {
+   "ca_mean": 0.6821,
+   "adj_half_mean": 0.8387,
+   "adj_sigma_mean": 0.684,
+   "trials": [
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 7
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 7
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 7
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 7
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 7
+    }
+   ]
+  },
+  "p30": {
+   "ca_mean": 0.6821,
+   "adj_half_mean": 0.8387,
+   "adj_sigma_mean": 0.684,
+   "trials": [
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 22
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 22
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 22
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 22
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 22
+    }
+   ]
+  },
+  "p50": {
+   "ca_mean": 0.6821,
+   "adj_half_mean": 0.8387,
+   "adj_sigma_mean": 0.684,
+   "trials": [
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 36
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 36
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 36
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 36
+    },
+    {
+     "ca": 0.6821,
+     "adj_half": 0.8387,
+     "adj_sigma": 0.684,
+     "n_fake": 36
+    }
+   ]
+  }
+ }
+}
